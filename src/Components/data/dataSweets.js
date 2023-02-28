@@ -1,7 +1,7 @@
 const dataSweets = [
     {
         id:1,
-        price:3.5,
+        price:3.50,
         img:"https://images.unsplash.com/photo-1618111415112-793c80d2fb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8QWxtb25kJTIwY3JvaXNzYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
         name:"Almond croissant",
         category:"CROISSANT",
@@ -36,14 +36,14 @@ const dataSweets = [
     },
     {
         id:6,
-        price:4.8,
+        price:4.80,
         img:"https://images.unsplash.com/photo-1613697193450-23f766dbaa73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fENIT0NPTEFURSUyMENST2lzc2FudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
         name:"Chocolate croissant",
         category:"CROISSANT",
     },
     {
         id:7,
-        price:7.5,
+        price:7.50,
         img:"https://images.unsplash.com/photo-1580915411954-282cb1b0d780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Q0hPQ09MQVRFJTIwSUNFJTIwQ1JFQU18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
         name:" 2 Scoop of Chocolate Ice-cream",
         category:"ICE-CREAM",
@@ -127,7 +127,7 @@ const dataSweets = [
     },
     {
         id:19,
-        price:3,
+        price:3.00,
         img:"https://media.istockphoto.com/id/1429413582/photo/two-halves-of-a-croissant.jpg?b=1&s=170667a&w=0&k=20&c=Kux-ypaf7N1SxZxsgg6IoaAdQewlbqAUYcGl2IncMFU=",
         name:"Plain croissant",
         category:"CROISSANT",
