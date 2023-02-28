@@ -45,7 +45,7 @@ const dataSweets = [
         id:7,
         price:7.50,
         img:"https://images.unsplash.com/photo-1580915411954-282cb1b0d780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Q0hPQ09MQVRFJTIwSUNFJTIwQ1JFQU18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
-        name:" 2 Scoop of Chocolate Ice-cream",
+        name:" 2 Scoops of Chocolate Ice-cream",
         category:"ICE-CREAM",
     },
     {
