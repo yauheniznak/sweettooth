@@ -1,13 +1,198 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-image: url(https://images.unsplash.com/photo-1560180474-e8563fd75bab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRlc3NlcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+
+
+background-color: #e4e4e6;
+}
+h1{
+  font-family: 'Boogaloo', cursive;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#030704,#f9c50a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  background: rgb(3,7,4);
+background: radial-gradient(circle, rgba(3,7,4,1) 0%, rgba(249,197,10,0.4220281862745098) 100%);
+color:#d3c8ad;
+font-size: 40px;
+text-decoration: underline;
+padding:20px;
+font-family: 'Boogaloo', cursive;
+}
+.dessert{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+img{
+  width:400px;
+  height:400px;
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.question{
+  display: flex;
+ justify-content:center;
+}
+.choose{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content:space-around;
+ color:white;
+ background: rgb(3,7,4);
+background: radial-gradient(circle, rgba(3,7,4,1) 0%, rgba(249,197,10,0.4220281862745098) 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.categoryButton:hover {
+  background-color: #fed641;
+  color:black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.categoryButtonSelected{
+  background-color: #e2ead8;
+  cursor:pointer;
+  margin:5px;
+  padding:5px;
+  color:black;
+  border-radius: 10px;
+}
+.categoryButton{
+  cursor:pointer;
+  margin:5px;
+  padding:5px;
+  border-radius: 10px;
+}
+.categoryButtonSelected:hover {
+  background-color: #fed641;
+  color:black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.overall{
+display: flex;
+flex-wrap: wrap;
+padding:30px;
+
+justify-content: center;
+  background: rgb(3,7,4);
+background: radial-gradient(circle, rgba(3,7,4,1) 0%, rgba(0,0,0,0.11670605742296913) 100%);
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  width:350px;
+color: #e2ead8;
+  background: rgb(254,208,13);
+background: radial-gradient(circle, rgba(254,208,13,0.1811318277310925) 0%, rgba(249,197,10,0.4220281862745098) 100%);
+}
+h3{
+  font-family: 'Boogaloo', cursive;
+  font-size: 50px;
+}
+h4{
+  font-family: 'Boogaloo', cursive;
+  color:#030704;
+  text-decoration: wavy;
+  font-size: 30px;
+}
+button{
+  background-color: #030704;
+  color:#e2ead8;
+  border-radius: 8px;
+  padding: 5px;
+  width:30px
+}
+.photoCart{
+  width:100px;
+  height:100px
+}
+.emp{
+  text-transform: uppercase;
+  font-family: 'Boogaloo', cursive;
+}
+.orders{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ padding: 10px;
+ background: rgb(228,191,100);
+background: radial-gradient(circle, rgba(228,191,100,0.2931766456582633) 0%, rgba(237,231,215,1) 100%);
+}
+.total{
+  font-size: 30px;
+  color:black
+}
+.add{
+  background-color: #030704;
+  color:#e2ead8;
+  border-radius: 8px;
+  padding: 5px;
+  width:90px
+}
+.icon{
+  width:30px;
+  height:30px
+}
+@media all and (max-width:600px){
+  h3{
+    font-size: 25px;
+  }
+  .card{
+    width:200px;
+  }
+  img{
+    width:250px;
+    height:300px
+  }
+  .categoryButton:hover {
+    background-color: #fed641;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .categoryButtonSelected:hover {
+    background-color: #fed641;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+}
+@media all and (max-width:800px){
+  h3{
+    font-size: 25px;
+  }
+  .categoryButton:hover {
+    background-color: #fed641;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .categoryButtonSelected:hover {
+    background-color: #fed641;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+  }
 }
